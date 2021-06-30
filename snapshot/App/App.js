@@ -1,7 +1,23 @@
 import React from "react";
 
 const App = () => {
-  return <div>appewe</div>;
+  const handle = () => {
+    console.log("hi");
+  };
+
+  const fetch = () => {
+    console.log("hi");
+  };
+
+  const hello = () => {
+    console.log("try");
+  };
+
+  const say = () => {
+    console.log("say");
+  };
+
+  return <div onClick={handle}>appewe TETW</div>;
 };
 
 export default App;

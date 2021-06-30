@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack serve --open",
-    "test": "jest --watch"
+    "test": "jest --watch --coverage"
   },
   "keywords": [],
   "author": "",
@@ -25,6 +25,6 @@
     "jest": "^27.0.6",
     "webpack": "^5.41.1",
     "webpack-cli": "^4.7.2",
-    "webpack-dev-server": "^3.11.2"
+    "webpack-dev-server": "^1.16.5"
   }
 }

@@ -1,7 +1,17 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`renders app 1`] = `
-<div>
-  appee
+<div
+  onClick={[Function]}
+>
+  appewe TETW
 </div>
+`;
+
+exports[`will fail every time 1`] = `
+Object {
+  "createdAt": Any<Date>,
+  "id": 10,
+  "name": Any<String>,
+}
 `;
